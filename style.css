@@ -1,0 +1,12 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#f5f2ec;color:#222}
+header{display:flex;justify-content:space-between;align-items:center;background:#111;color:#fff;padding:18px 40px}
+.logo{font-size:30px;font-weight:bold;color:#d4af37}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{height:70vh;background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('https://picsum.photos/1600/900') center/cover;display:flex;align-items:center}
+.overlay{padding:60px;color:#fff}
+.overlay h1{font-size:56px}
+.btn{background:#d4af37;color:#fff;padding:14px 24px;text-decoration:none;border-radius:5px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;padding:50px}
+.card{background:#fff;padding:25px;border-radius:10px;box-shadow:0 3px 12px rgba(0,0,0,.15)}
+footer{background:#111;color:#ddd;text-align:center;padding:30px}
